@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.example.com/meds"
+        xmlns:tns="http://www.example.com/meds"
+        elementFormDefault="qualified">
+
+    <element name="medicine" type="tns:medicine-type" abstract="true"></element>
+    <element name="drug" type="tns:drug" substitutionGroup="tns:medicine"></element>
+    <element name="injection" type="tns:injection" substitutionGroup="tns:medicine"></element>
+
+
+    <element name="medicines">
+        <complexType>
+            <sequence>
+                <element ref="tns:medicine" minOccurs="1" maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+    </element>
+
+
+    <complexType name="certificate">
+        <sequence>
+            <element name="date-of-issue" type="date"/>
+            <element name="expiration-date" type="date"/>
+            <element name="registry-organization" type="string"/>
+        </sequence>
+        <attribute name="id" use="required">
+            <simpleType>
+                <restriction base="ID">
+                    <pattern value="[a-zA-Z][0-9]+"/>
+                </restriction>
+            </simpleType>
+        </attribute>
+    </complexType>
+
+    <complexType name="dosage">
+        <attribute name="drug-dosage" use="required">
+            <simpleType>
+                <restriction base="integer">
+                    <minInclusive value="0"/>
+                    <maxInclusive value="50"/>
+                </restriction>
+            </simpleType>
+        </attribute>
+        <attribute name="frequency-reception" use="optional" default="1">
+            <simpleType>
+                <restriction base="integer">
+                    <minInclusive value="1"/>
+                    <maxInclusive value="3"/>
+                </restriction>
+            </simpleType>
+        </attribute>
+    </complexType>
+
+    <complexType name="package">
+        <sequence>
+            <element name="amount">
+                <simpleType>
+                    <restriction base="integer">
+                        <minInclusive value="0"/>
+                        <maxInclusive value="1000"/>
+                    </restriction>
+                </simpleType>
+            </element>
+            <element name="price" type="integer"/>
+        </sequence>
+        <attribute name="package-type" use="required">
+            <simpleType>
+                <restriction base="string">
+                    <enumeration value="box"></enumeration>
+                    <enumeration value="ampoule"></enumeration>
+                    <enumeration value="bottle"></enumeration>
+                </restriction>
+            </simpleType>
+        </attribute>
+    </complexType>
+
+    <complexType name="pharm">
+        <sequence>
+            <element name="certificate" type="tns:certificate"/>
+            <element name="package" type="tns:package"/>
+            <element name="dosage" type="tns:dosage"/>
+        </sequence>
+    </complexType>
+
+    <complexType name="version">
+        <sequence>
+            <element name="producer" type="tns:pharm" minOccurs="1" maxOccurs="unbounded"/>
+            <element name="view" default="pills">
+                <simpleType>
+                    <restriction base="string">
+                        <enumeration value="pills"></enumeration>
+                        <enumeration value="capsules"></enumeration>
+                        <enumeration value="powder"></enumeration>
+                        <enumeration value="drops"></enumeration>
+                    </restriction>
+                </simpleType>
+            </element>
+        </sequence>
+    </complexType>
+
+    <complexType name="medicine-type">
+        <sequence>
+            <element name="name" type="string"/>
+            <element name="group">
+                <simpleType>
+                    <restriction base="string">
+                        <enumeration value="antibiotics"></enumeration>
+                        <enumeration value="painkiller"></enumeration>
+                        <enumeration value="vitamins"></enumeration>
+                    </restriction>
+                </simpleType>
+            </element>
+        </sequence>
+    </complexType>
+
+    <complexType name="drug">
+        <complexContent>
+            <extension base="tns:medicine-type">
+                <sequence>
+                    <element name="pharm" type="tns:pharm"/>
+                    <element name="analog" type="string" minOccurs="0" maxOccurs="unbounded"/>
+                    <element name="version" type="tns:version" minOccurs="1" maxOccurs="unbounded"/>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+    
+    <complexType name="injection">
+        <complexContent>
+            <extension base="tns:medicine-type">
+                <sequence>
+                    <element name="injection-type">
+                        <simpleType>
+                            <restriction base="string">
+                                <enumeration value="intracutaneos"></enumeration>
+                                <enumeration value="subcutaneous"></enumeration>
+                                <enumeration value="intramuscular"></enumeration>
+                                <enumeration value="intravenous"></enumeration>
+                            </restriction>
+                        </simpleType>
+                    </element>
+                    <element name="dosage" type="tns:dosage"/>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+
+</schema>

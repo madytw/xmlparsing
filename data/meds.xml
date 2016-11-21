@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<medicines xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns="http://www.example.com/meds"
+           xsi:schemaLocation="http://www.example.com/meds schema.xsd">
+    <drug>
+        <name>Аскорбиновая кислота</name>
+        <group>vitamins</group>
+        <pharm>
+            <certificate id="A1">
+                <date-of-issue>2016-11-16</date-of-issue>
+                <expiration-date>2020-11-16</expiration-date>
+                <registry-organization>Drugstore</registry-organization>
+            </certificate>
+            <package package-type="box">
+                <amount>20</amount>
+                <price>10</price>
+            </package>
+            <dosage drug-dosage="45"/>
+        </pharm>
+        <analog>аскорбинка</analog>
+        <analog>аскорбушка</analog>
+        <version>
+            <producer>
+                <certificate id="B4">
+                    <date-of-issue>2015-10-05</date-of-issue>
+                    <expiration-date>2017-11-14</expiration-date>
+                    <registry-organization>Drugstore</registry-organization>
+                </certificate>
+                <package package-type="bottle">
+                    <amount>20</amount>
+                    <price>40</price>
+                </package>
+                <dosage drug-dosage="30" frequency-reception="2"/>
+            </producer>
+            <view>pills</view>
+        </version>
+    </drug>
+    <injection>
+        <name>Наклофен</name>
+        <group>antibiotics</group>
+        <injection-type>intramuscular</injection-type>
+        <dosage drug-dosage="50" frequency-reception="2"/>
+    </injection>
+    <injection>
+        <name>Комбилипен</name>
+        <group>vitamins</group>
+        <injection-type>intramuscular</injection-type>
+        <dosage drug-dosage="45"/>
+    </injection>
+    <drug>
+        <name>Спазмалзин</name>
+        <group>painkiller</group>
+        <pharm>
+            <certificate id="G7">
+                <date-of-issue>2016-10-15</date-of-issue>
+                <expiration-date>2021-11-18</expiration-date>
+                <registry-organization>Drugstore</registry-organization>
+            </certificate>
+            <package package-type="box">
+                <amount>15</amount>
+                <price>30</price>
+            </package>
+            <dosage drug-dosage="20" frequency-reception="3"/>
+        </pharm>
+        <version>
+            <producer>
+                <certificate id="C8">
+                    <date-of-issue>2013-07-19</date-of-issue>
+                    <expiration-date>2018-09-15</expiration-date>
+                    <registry-organization>Drugstore</registry-organization>
+                </certificate>
+                <package package-type="box">
+                    <amount>20</amount>
+                    <price>50</price>
+                </package>
+                <dosage drug-dosage="25"/>
+            </producer>
+            <view>capsules</view>
+        </version>
+    </drug>
+    <drug>
+        <name>Амклав</name>
+        <group>antibiotics</group>
+        <pharm>
+            <certificate id="P5">
+                <date-of-issue>2016-10-15</date-of-issue>
+                <expiration-date>2021-11-18</expiration-date>
+                <registry-organization>БелМед препараты</registry-organization>
+            </certificate>
+            <package package-type="box">
+                <amount>15</amount>
+                <price>5</price>
+            </package>
+            <dosage drug-dosage="20" frequency-reception="3"/>
+        </pharm>
+        <version>
+            <producer>
+                <certificate id="I8">
+                    <date-of-issue>2013-07-19</date-of-issue>
+                    <expiration-date>2018-09-15</expiration-date>
+                    <registry-organization>БелМед препараты</registry-organization>
+                </certificate>
+                <package package-type="box">
+                    <amount>50</amount>
+                    <price>20</price>
+                </package>
+                <dosage drug-dosage="25" frequency-reception="1"/>
+            </producer>
+            <producer>
+                <certificate id="K9">
+                    <date-of-issue>2013-07-19</date-of-issue>
+                    <expiration-date>2018-09-15</expiration-date>
+                    <registry-organization>БелМед препараты</registry-organization>
+                </certificate>
+                <package package-type="ampoule">
+                    <amount>1000</amount>
+                    <price>25</price>
+                </package>
+                <dosage drug-dosage="20" frequency-reception="1"/>
+            </producer>
+            <view>powder</view>
+        </version>
+    </drug>
+    <drug>
+        <name>Амоксициллин</name>
+        <group>antibiotics</group>
+        <pharm>
+            <certificate id="E10">
+                <date-of-issue>2016-10-15</date-of-issue>
+                <expiration-date>2021-11-18</expiration-date>
+                <registry-organization>Фармалэнд Беларусь</registry-organization>
+            </certificate>
+            <package package-type="box">
+                <amount>500</amount>
+                <price>35</price>
+            </package>
+            <dosage drug-dosage="45" frequency-reception="1"/>
+        </pharm>
+        <version>
+            <producer>
+                <certificate id="O3">
+                    <date-of-issue>2013-07-19</date-of-issue>
+                    <expiration-date>2018-09-15</expiration-date>
+                    <registry-organization>Фармалэнд Беларусь</registry-organization>
+                </certificate>
+                <package package-type="bottle">
+                    <amount>500</amount>
+                    <price>50</price>
+                </package>
+                <dosage drug-dosage="45" frequency-reception="2"/>
+            </producer>
+            <view>capsules</view>
+        </version>
+    </drug>
+    <injection>
+        <name>Кеналог</name>
+        <group>antibiotics</group>
+        <injection-type>intravenous</injection-type>
+        <dosage drug-dosage="50" frequency-reception="2"/>
+    </injection>
+    <injection>
+        <name>Пирацетам</name>
+        <group>vitamins</group>
+        <injection-type>intravenous</injection-type>
+        <dosage drug-dosage="30" frequency-reception="2"/>
+    </injection>
+    <drug>
+        <name>Аевит</name>
+        <group>vitamins</group>
+        <pharm>
+            <certificate id="J9">
+                <date-of-issue>2016-11-16</date-of-issue>
+                <expiration-date>2020-11-16</expiration-date>
+                <registry-organization>Минскинтеркапс</registry-organization>
+            </certificate>
+            <package package-type="box">
+                <amount>50</amount>
+                <price>8</price>
+            </package>
+            <dosage drug-dosage="20" frequency-reception="3"/>
+        </pharm>
+        <version>
+            <producer>
+                <certificate id="Z4">
+                    <date-of-issue>2015-10-05</date-of-issue>
+                    <expiration-date>2017-11-14</expiration-date>
+                    <registry-organization>БелМед препараты</registry-organization>
+                </certificate>
+                <package package-type="bottle">
+                    <amount>60</amount>
+                    <price>12</price>
+                </package>
+                <dosage drug-dosage="30" frequency-reception="2"/>
+            </producer>
+            <view>pills</view>
+        </version>
+    </drug>
+    <drug>
+        <name>Мульимакс</name>
+        <group>vitamins</group>
+        <pharm>
+            <certificate id="M2">
+                <date-of-issue>2016-11-16</date-of-issue>
+                <expiration-date>2020-11-16</expiration-date>
+                <registry-organization>Юнифарм</registry-organization>
+            </certificate>
+            <package package-type="box">
+                <amount>60</amount>
+                <price>165</price>
+            </package>
+            <dosage drug-dosage="35" frequency-reception="3"/>
+        </pharm>
+        <version>
+            <producer>
+                <certificate id="Z10">
+                    <date-of-issue>2015-10-05</date-of-issue>
+                    <expiration-date>2017-11-14</expiration-date>
+                    <registry-organization>Юнифарм</registry-organization>
+                </certificate>
+                <package package-type="bottle">
+                    <amount>30</amount>
+                    <price>90</price>
+                </package>
+                <dosage drug-dosage="30" frequency-reception="2"/>
+            </producer>
+            <view>pills</view>
+        </version>
+    </drug>
+    <injection>
+        <name>Мовалис</name>
+        <group>painkiller</group>
+        <injection-type>intracutaneos</injection-type>
+        <dosage drug-dosage="30" frequency-reception="2"/>
+    </injection>
+    <injection>
+        <name>Мильгамма</name>
+        <group>vitamins</group>
+        <injection-type>intramuscular</injection-type>
+        <dosage drug-dosage="20" frequency-reception="2"/>
+    </injection>
+    <drug>
+        <name>Терафлекс</name>
+        <group>painkiller</group>
+        <pharm>
+            <certificate id="M8">
+                <date-of-issue>2016-11-16</date-of-issue>
+                <expiration-date>2020-11-16</expiration-date>
+                <registry-organization>БАЙЕР КОНСЬЮМЕР КЭР</registry-organization>
+            </certificate>
+            <package package-type="box">
+                <amount>60</amount>
+                <price>310</price>
+            </package>
+            <dosage drug-dosage="15" frequency-reception="3"/>
+        </pharm>
+        <version>
+            <producer>
+                <certificate id="V10">
+                    <date-of-issue>2015-10-05</date-of-issue>
+                    <expiration-date>2017-11-14</expiration-date>
+                    <registry-organization>БАЙЕР КОНСЬЮМЕР КЭР</registry-organization>
+                </certificate>
+                <package package-type="bottle">
+                    <amount>30</amount>
+                    <price>185</price>
+                </package>
+                <dosage drug-dosage="30" frequency-reception="2"/>
+            </producer>
+            <producer>
+                <certificate id="C70">
+                    <date-of-issue>2015-10-05</date-of-issue>
+                    <expiration-date>2017-11-14</expiration-date>
+                    <registry-organization>БАЙЕР КОНСЬЮМЕР КЭР</registry-organization>
+                </certificate>
+                <package package-type="ampoule">
+                    <amount>120</amount>
+                    <price>500</price>
+                </package>
+                <dosage drug-dosage="45" frequency-reception="3"/>
+            </producer>
+            <view>capsules</view>
+        </version>
+    </drug>
+    <drug>
+        <name>Мильгамма</name>
+        <group>vitamins</group>
+        <pharm>
+            <certificate id="U5">
+                <date-of-issue>2016-11-16</date-of-issue>
+                <expiration-date>2020-11-16</expiration-date>
+                <registry-organization>ВЁРВАГ ФАРМА</registry-organization>
+            </certificate>
+            <package package-type="box">
+                <amount>30</amount>
+                <price>240</price>
+            </package>
+            <dosage drug-dosage="15" frequency-reception="2"/>
+        </pharm>
+        <version>
+            <producer>
+                <certificate id="U7">
+                    <date-of-issue>2015-10-05</date-of-issue>
+                    <expiration-date>2017-11-14</expiration-date>
+                    <registry-organization>ВЁРВАГ ФАРМА</registry-organization>
+                </certificate>
+                <package package-type="box">
+                    <amount>60</amount>
+                    <price>420</price>
+                </package>
+                <dosage drug-dosage="30" frequency-reception="2"/>
+            </producer>
+            <view>pills</view>
+        </version>
+        <version>
+            <producer>
+                <certificate id="U1">
+                    <date-of-issue>2015-10-05</date-of-issue>
+                    <expiration-date>2017-11-14</expiration-date>
+                    <registry-organization>ВЁРВАГ ФАРМА</registry-organization>
+                </certificate>
+                <package package-type="ampoule">
+                    <amount>200</amount>
+                    <price>110</price>
+                </package>
+                <dosage drug-dosage="35" frequency-reception="1"/>
+            </producer>
+            <view>drops</view>
+        </version>
+    </drug>
+    <injection>
+        <name>БориВит</name>
+        <group>vitamins</group>
+        <injection-type>intramuscular</injection-type>
+        <dosage drug-dosage="10" frequency-reception="2"/>
+    </injection>
+    <injection>
+        <name>Алоэ экстракт жидкий</name>
+        <group>painkiller</group>
+        <injection-type>intravenous</injection-type>
+        <dosage drug-dosage="20" frequency-reception="2"/>
+    </injection>
+</medicines>

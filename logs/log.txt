@@ -1,0 +1,317 @@
+21.11.2016 23:37:24 [main] INFO  edu.training.parsing.runner.BuilderRunner: 
+[Injection:
+	Name: Комбилипен
+	Group: VITAMINS
+	Dosage: {Drug Dosage: 45; Frequency Reception: 1}
+	injectionType: INTRAMUSCULAR
+, Drug:
+	Name: Амоксициллин
+	Group: ANTIBIOTICS
+	Pharm:
+		Certificate:
+			Id: E10
+			Date Of Issue: 2016-10-15
+			Expiration Date: 2021-11-18
+			Registry Organization: Фармалэнд Беларусь
+		Dosage: {Drug Dosage: 45; Frequency Reception: 1}
+		Package:
+			Amount: 500
+			Price: 35
+			Type: BOX
+	Analogue Names=[]
+	Versions: 
+		Version: { View: CAPSULES}
+		Pharm:
+		Certificate:
+			Id: O3
+			Date Of Issue: 2013-07-19
+			Expiration Date: 2018-09-15
+			Registry Organization: Фармалэнд Беларусь
+		Dosage: {Drug Dosage: 45; Frequency Reception: 2}
+		Package:
+			Amount: 500
+			Price: 50
+			Type: BOTTLE
+		
+		
+, Drug:
+	Name: Аевит
+	Group: VITAMINS
+	Pharm:
+		Certificate:
+			Id: J9
+			Date Of Issue: 2016-11-16
+			Expiration Date: 2020-11-16
+			Registry Organization: Минскинтеркапс
+		Dosage: {Drug Dosage: 20; Frequency Reception: 3}
+		Package:
+			Amount: 50
+			Price: 8
+			Type: BOX
+	Analogue Names=[]
+	Versions: 
+		Version: { View: PILLS}
+		Pharm:
+		Certificate:
+			Id: Z4
+			Date Of Issue: 2015-10-05
+			Expiration Date: 2017-11-14
+			Registry Organization: БелМед препараты
+		Dosage: {Drug Dosage: 30; Frequency Reception: 2}
+		Package:
+			Amount: 60
+			Price: 12
+			Type: BOTTLE
+		
+		
+, Drug:
+	Name: Амклав
+	Group: ANTIBIOTICS
+	Pharm:
+		Certificate:
+			Id: P5
+			Date Of Issue: 2016-10-15
+			Expiration Date: 2021-11-18
+			Registry Organization: БелМед препараты
+		Dosage: {Drug Dosage: 20; Frequency Reception: 3}
+		Package:
+			Amount: 15
+			Price: 5
+			Type: BOX
+	Analogue Names=[]
+	Versions: 
+		Version: { View: POWDER}
+		Pharm:
+		Certificate:
+			Id: I8
+			Date Of Issue: 2013-07-19
+			Expiration Date: 2018-09-15
+			Registry Organization: БелМед препараты
+		Dosage: {Drug Dosage: 25; Frequency Reception: 1}
+		Package:
+			Amount: 50
+			Price: 20
+			Type: BOX
+		Pharm:
+		Certificate:
+			Id: K9
+			Date Of Issue: 2013-07-19
+			Expiration Date: 2018-09-15
+			Registry Organization: БелМед препараты
+		Dosage: {Drug Dosage: 20; Frequency Reception: 1}
+		Package:
+			Amount: 1000
+			Price: 25
+			Type: AMPOULE
+		
+		
+, Injection:
+	Name: Наклофен
+	Group: ANTIBIOTICS
+	Dosage: {Drug Dosage: 50; Frequency Reception: 2}
+	injectionType: INTRAMUSCULAR
+, Injection:
+	Name: Мовалис
+	Group: PAINKILLER
+	Dosage: {Drug Dosage: 30; Frequency Reception: 2}
+	injectionType: INTRACUTANEOS
+, Drug:
+	Name: Терафлекс
+	Group: PAINKILLER
+	Pharm:
+		Certificate:
+			Id: M8
+			Date Of Issue: 2016-11-16
+			Expiration Date: 2020-11-16
+			Registry Organization: БАЙЕР КОНСЬЮМЕР КЭР
+		Dosage: {Drug Dosage: 15; Frequency Reception: 3}
+		Package:
+			Amount: 60
+			Price: 310
+			Type: BOX
+	Analogue Names=[]
+	Versions: 
+		Version: { View: CAPSULES}
+		Pharm:
+		Certificate:
+			Id: V10
+			Date Of Issue: 2015-10-05
+			Expiration Date: 2017-11-14
+			Registry Organization: БАЙЕР КОНСЬЮМЕР КЭР
+		Dosage: {Drug Dosage: 30; Frequency Reception: 2}
+		Package:
+			Amount: 30
+			Price: 185
+			Type: BOTTLE
+		Pharm:
+		Certificate:
+			Id: C70
+			Date Of Issue: 2015-10-05
+			Expiration Date: 2017-11-14
+			Registry Organization: БАЙЕР КОНСЬЮМЕР КЭР
+		Dosage: {Drug Dosage: 45; Frequency Reception: 3}
+		Package:
+			Amount: 120
+			Price: 500
+			Type: AMPOULE
+		
+		
+, Drug:
+	Name: Аскорбиновая кислота
+	Group: VITAMINS
+	Pharm:
+		Certificate:
+			Id: A1
+			Date Of Issue: 2016-11-16
+			Expiration Date: 2020-11-16
+			Registry Organization: Drugstore
+		Dosage: {Drug Dosage: 45; Frequency Reception: 1}
+		Package:
+			Amount: 20
+			Price: 10
+			Type: BOX
+	Analogue Names=[аскорбинка, аскорбушка]
+	Versions: 
+		Version: { View: PILLS}
+		Pharm:
+		Certificate:
+			Id: B4
+			Date Of Issue: 2015-10-05
+			Expiration Date: 2017-11-14
+			Registry Organization: Drugstore
+		Dosage: {Drug Dosage: 30; Frequency Reception: 2}
+		Package:
+			Amount: 20
+			Price: 40
+			Type: BOTTLE
+		
+		
+, Injection:
+	Name: БориВит
+	Group: VITAMINS
+	Dosage: {Drug Dosage: 10; Frequency Reception: 2}
+	injectionType: INTRAMUSCULAR
+, Drug:
+	Name: Спазмалзин
+	Group: PAINKILLER
+	Pharm:
+		Certificate:
+			Id: G7
+			Date Of Issue: 2016-10-15
+			Expiration Date: 2021-11-18
+			Registry Organization: Drugstore
+		Dosage: {Drug Dosage: 20; Frequency Reception: 3}
+		Package:
+			Amount: 15
+			Price: 30
+			Type: BOX
+	Analogue Names=[]
+	Versions: 
+		Version: { View: CAPSULES}
+		Pharm:
+		Certificate:
+			Id: C8
+			Date Of Issue: 2013-07-19
+			Expiration Date: 2018-09-15
+			Registry Organization: Drugstore
+		Dosage: {Drug Dosage: 25; Frequency Reception: 1}
+		Package:
+			Amount: 20
+			Price: 50
+			Type: BOX
+		
+		
+, Drug:
+	Name: Мильгамма
+	Group: VITAMINS
+	Pharm:
+		Certificate:
+			Id: U5
+			Date Of Issue: 2016-11-16
+			Expiration Date: 2020-11-16
+			Registry Organization: ВЁРВАГ ФАРМА
+		Dosage: {Drug Dosage: 15; Frequency Reception: 2}
+		Package:
+			Amount: 30
+			Price: 240
+			Type: BOX
+	Analogue Names=[]
+	Versions: 
+		Version: { View: PILLS}
+		Pharm:
+		Certificate:
+			Id: U7
+			Date Of Issue: 2015-10-05
+			Expiration Date: 2017-11-14
+			Registry Organization: ВЁРВАГ ФАРМА
+		Dosage: {Drug Dosage: 30; Frequency Reception: 2}
+		Package:
+			Amount: 60
+			Price: 420
+			Type: BOX
+		
+		Version: { View: DROPS}
+		Pharm:
+		Certificate:
+			Id: U1
+			Date Of Issue: 2015-10-05
+			Expiration Date: 2017-11-14
+			Registry Organization: ВЁРВАГ ФАРМА
+		Dosage: {Drug Dosage: 35; Frequency Reception: 1}
+		Package:
+			Amount: 200
+			Price: 110
+			Type: AMPOULE
+		
+		
+, Drug:
+	Name: Мульимакс
+	Group: VITAMINS
+	Pharm:
+		Certificate:
+			Id: M2
+			Date Of Issue: 2016-11-16
+			Expiration Date: 2020-11-16
+			Registry Organization: Юнифарм
+		Dosage: {Drug Dosage: 35; Frequency Reception: 3}
+		Package:
+			Amount: 60
+			Price: 165
+			Type: BOX
+	Analogue Names=[]
+	Versions: 
+		Version: { View: PILLS}
+		Pharm:
+		Certificate:
+			Id: Z10
+			Date Of Issue: 2015-10-05
+			Expiration Date: 2017-11-14
+			Registry Organization: Юнифарм
+		Dosage: {Drug Dosage: 30; Frequency Reception: 2}
+		Package:
+			Amount: 30
+			Price: 90
+			Type: BOTTLE
+		
+		
+, Injection:
+	Name: Кеналог
+	Group: ANTIBIOTICS
+	Dosage: {Drug Dosage: 50; Frequency Reception: 2}
+	injectionType: INTRAVENOUS
+, Injection:
+	Name: Мильгамма
+	Group: VITAMINS
+	Dosage: {Drug Dosage: 20; Frequency Reception: 2}
+	injectionType: INTRAMUSCULAR
+, Injection:
+	Name: Пирацетам
+	Group: VITAMINS
+	Dosage: {Drug Dosage: 30; Frequency Reception: 2}
+	injectionType: INTRAVENOUS
+, Injection:
+	Name: Алоэ экстракт жидкий
+	Group: PAINKILLER
+	Dosage: {Drug Dosage: 20; Frequency Reception: 2}
+	injectionType: INTRAVENOUS
+]
